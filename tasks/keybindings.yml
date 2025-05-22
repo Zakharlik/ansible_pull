@@ -2,4 +2,4 @@
 - name: Desktop direct access
   dconf:
     key: "/org/gnome/desktop/wm/keybindings/switch-to-workspace-6"
-    value: "'<Super>6'"
+    value: "['<Super>6']"
