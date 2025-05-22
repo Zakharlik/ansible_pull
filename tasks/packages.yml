@@ -1,0 +1,9 @@
+- name: Install htop
+  apt:
+    name: 
+    - htop
+    - btop
+    - atop
+    - tmux
+    - neofetch
+
