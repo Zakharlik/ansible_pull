@@ -4,5 +4,5 @@
     user: ansible
     name: "Ansible provision"
     minute: "*/30"
-    job: "/usr/bin/ansible-pool -o -C dev -U https://github.com/Zakharlik/ansible_pull.git >> /tmp/ansible-pull-$(date +%Y-%m-%d).log 2>>&1"  
+    job: "/usr/bin/ansible-pull -o -C dev -U https://github.com/Zakharlik/ansible_pull.git >> /tmp/ansible-pull-$(date +%Y-%m-%d).log 2>&1"  
                                      
