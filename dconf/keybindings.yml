@@ -1,0 +1,4 @@
+---
+- name: Desktop direct access
+  dconf:
+    key: /opt/
