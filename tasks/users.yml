@@ -1,3 +1,4 @@
+---
 - name: Create Ansible user
   user:
     name: ansible
